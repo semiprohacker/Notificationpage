@@ -10,20 +10,22 @@ body{
    
 }
 img{
-    width: 7%;
-    margin-bottom: 10px;
+    width: 55px;
+
 }
 .noti{
     display: inline-block;
     position: relative;
     top: 20px;
-    font-size: 25px;
+    font-size: 15px;
+   padding-bottom: 20px;
 }
 .row1{
-    margin-left: 10px;
+    margin-left: 2px;
     margin-bottom: 10px;
     border-radius: 5px;
     background-color: #EEF1FF;
+    width:650px
     
 
 }
@@ -32,16 +34,16 @@ textarea{
     resize: none;
     border-radius: 10px;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #EEF1FF;
 }
 .notirow{
     padding-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .notirow .Notifications{
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 .notino{
     border-radius: 10px;
@@ -57,7 +59,7 @@ textarea{
     font-size: 10px;
 }
 .long{
-    width: 690px;
+    width: 500px;
 }
 .name{
     font-weight: bold;
@@ -67,29 +69,40 @@ textarea{
 }
 @media (max-width:768px) {
     .container{
-        width: 1500px;
-        height: 1080px;
+        width: 400px;
+        height: 740px;
         margin-bottom: 40px;
     }
     .noti{
-        width: 400px;
+        width: 300px;
         position: relative;
         left:20px;
-        font-size :20px;
+        font-size :10px;
     }
     .long{
-        width: 400px;
+        width: 250px;
         
     }
    textarea{
-    width:370px;
-    font-size: 15px;
+    width:280px;
+    font-size: 10px;
     position: relative;
-    right: 15px;
+    right: 75px;
    }
    img{
-    width: 15%;
-    margin-bottom: 20px;
-
+    width: 40px;
+    margin-top: 17px;
    }
-}
+
+    .row1{
+        width:370px;
+        font-size: 20px;
+    }
+    .notirow{
+        font-size: 10px;
+    }
+    .notino{
+        font-size: 15px;
+        width: 35px;
+    }
+   }
